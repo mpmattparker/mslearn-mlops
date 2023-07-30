@@ -43,7 +43,7 @@ def split_data(df):
     data = {"train": {"X": X_train, "y": y_train},
             "test": {"X": X_test, "y": y_test}}
     return data
-    
+
 
 def train_model(reg_rate, X_train, X_test, y_train, y_test):
     # train model
